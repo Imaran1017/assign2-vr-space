@@ -1,0 +1,65 @@
+//-----------------------------------------------------------------------
+// <copyright file="#SCRIPTNAME#.cs" company="Simofun">
+//      Copyright (c) Simofun. All rights reserved.
+// </copyright>
+// <author>Simofun</author>
+//-----------------------------------------------------------------------
+
+#ROOTNAMESPACEBEGIN#
+	using Sirenix.OdinInspector;
+	using UnityEngine;
+
+	public class #SCRIPTNAME# : MonoBehaviour
+	{
+		#region Unity Properties
+		[field: SerializeField, Title(nameof(#SCRIPTNAME#), "Settings")]
+		public float SettingValue { get; set; }
+		
+		[field: SerializeField, Title("", "References")]
+		public float ReferenceValue { get; set; }
+		#endregion
+
+		#region Unity Methods		
+		/// <inheritdoc />
+		protected virtual void Awake()
+		{
+		}
+
+		/// <inheritdoc />
+		protected virtual void OnEnable()
+		{
+		}
+
+		/// <inheritdoc />
+		protected virtual void Start()
+		{
+			this.RegisterEventHandlers();
+		}
+
+		/// <inheritdoc />
+		protected virtual void OnDisable()
+		{
+		}
+
+		/// <inheritdoc />
+		protected virtual void OnDestroy()
+		{
+			this.UnRegisterEventHandlers();
+		}
+		#endregion
+
+		#region Protected Methods
+		#region Event Handlers
+		#region Registration
+		protected virtual void RegisterEventHandlers()
+		{
+		}
+
+		protected virtual void UnRegisterEventHandlers()
+		{
+		}
+		#endregion
+		#endregion
+		#endregion
+	}
+#ROOTNAMESPACEEND#

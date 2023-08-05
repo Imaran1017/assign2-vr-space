@@ -1,0 +1,347 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bayhaksam.Unity.Logging</name>
+    </assembly>
+    <members>
+        <member name="T:Bayhaksam.Unity.Logging.debug">
+            <summary>
+            Debug class for unity logs.
+            </summary>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.debug.Log(System.Object)">
+            <summary>
+            	<para>Logs message to the Unity Console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="message">Message</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.debug.Log(System.Object,UnityEngine.Object)">
+            <summary>
+            	<para>Logs message to the Unity Console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="message">Message</param>
+            <param name="context">Context</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.debug.LogError(System.Object)">
+            <summary>
+            	<para>A variant of Debug.Log that logs an error message to the console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="message">Message</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.debug.LogError(System.Object,UnityEngine.Object)">
+            <summary>
+            	<para>A variant of Debug.Log that logs an error message to the console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="message">Message</param>
+            <param name="context">Context</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.debug.LogErrorFormat(System.String,System.Object[])">
+            <summary>
+            	<para>Logs a formatted error message to the Unity console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="format">Format</param>
+            <param name="args">Arguments</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.debug.LogErrorFormat(UnityEngine.Object,System.String,System.Object[])">
+            <summary>
+            	<para>Logs a formatted error message to the Unity console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="context">Context</param>
+            <param name="format">Format</param>
+            <param name="args">Arguments</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.debug.LogException(System.Exception)">
+            <summary>
+            	<para>A variant of Debug.Log that logs an error message to the console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="exception">Exception</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.debug.LogException(System.Exception,UnityEngine.Object)">
+            <summary>
+            	<para>A variant of Debug.Log that logs an error message to the console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="exception">Exception</param>
+            <param name="context">Context</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.debug.LogFormat(System.String,System.Object[])">
+            <summary>
+            	<para>Logs a formatted message to the Unity Console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="format">Format</param>
+            <param name="args">Arguments</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.debug.LogFormat(UnityEngine.Object,System.String,System.Object[])">
+            <summary>
+            	<para>Logs a formatted message to the Unity Console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="context">Context</param>
+            <param name="format">Format</param>
+            <param name="args">Arguments</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.debug.LogWarning(System.Object)">
+            <summary>
+            	<para>A variant of Debug.Log that logs a warning message to the console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="message">Message</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.debug.LogWarning(System.Object,UnityEngine.Object)">
+            <summary>
+            	<para>A variant of Debug.Log that logs a warning message to the console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="message">Message</param>
+            <param name="context">Context</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.debug.LogWarningFormat(System.String,System.Object[])">
+            <summary>
+            	<para>Logs a formatted warning message to the Unity Console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="format">Format</param>
+            <param name="args">Arguments</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.debug.LogWarningFormat(UnityEngine.Object,System.String,System.Object[])">
+            <summary>
+            	<para>Logs a formatted warning message to the Unity Console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="context">Context</param>
+            <param name="format">Format</param>
+            <param name="args">Arguments</param>
+        </member>
+        <member name="T:Bayhaksam.Unity.Logging.DevelopmentBuild.debug">
+            <summary>
+            Debug class to log only for development builds.
+            </summary>
+        </member>
+        <member name="F:Bayhaksam.Unity.Logging.DevelopmentBuild.debug.UnityEditor">
+            <summary>
+            	<see href="http://unity3d.com/">
+            		Unity3D</see>
+            	editor directive
+            	<seealso href="http://docs.unity3d.com/Manual/PlatformDependentCompilation.html"/>
+            </summary>
+        </member>
+        <member name="F:Bayhaksam.Unity.Logging.DevelopmentBuild.debug.DevelopmentBuild">
+            <summary>
+            	<see href="http://unity3d.com/">
+            		Unity3D</see>
+            	' s development build directive
+            	<seealso href="http://docs.unity3d.com/Manual/PlatformDependentCompilation.html"/>
+            </summary>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.DevelopmentBuild.debug.Log(System.Object)">
+            <summary>
+            	<para>Logs message to the Unity Console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="message">Message</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.DevelopmentBuild.debug.Log(System.Object,UnityEngine.Object)">
+            <summary>
+            	<para>Logs message to the Unity Console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="message">Message</param>
+            <param name="context">Context</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.DevelopmentBuild.debug.LogError(System.Object)">
+            <summary>
+            	<para>A variant of Debug.Log that logs an error message to the console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="message">Message</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.DevelopmentBuild.debug.LogError(System.Object,UnityEngine.Object)">
+            <summary>
+            	<para>A variant of Debug.Log that logs an error message to the console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="message">Message</param>
+            <param name="context">Context</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.DevelopmentBuild.debug.LogErrorFormat(System.String,System.Object[])">
+            <summary>
+            	<para>Logs a formatted error message to the Unity console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="format">Format</param>
+            <param name="args">Arguments</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.DevelopmentBuild.debug.LogErrorFormat(UnityEngine.Object,System.String,System.Object[])">
+            <summary>
+            	<para>Logs a formatted error message to the Unity console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="context">Context</param>
+            <param name="format">Format</param>
+            <param name="args">Arguments</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.DevelopmentBuild.debug.LogException(System.Exception)">
+            <summary>
+            	<para>A variant of Debug.Log that logs an error message to the console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="exception">Exception</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.DevelopmentBuild.debug.LogException(System.Exception,UnityEngine.Object)">
+            <summary>
+            	<para>A variant of Debug.Log that logs an error message to the console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="exception">Exception</param>
+            <param name="context">Context</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.DevelopmentBuild.debug.LogFormat(System.String,System.Object[])">
+            <summary>
+            	<para>Logs a formatted message to the Unity Console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="format">Format</param>
+            <param name="args">Arguments</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.DevelopmentBuild.debug.LogFormat(UnityEngine.Object,System.String,System.Object[])">
+            <summary>
+            	<para>Logs a formatted message to the Unity Console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="context">Context</param>
+            <param name="format">Format</param>
+            <param name="args">Arguments</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.DevelopmentBuild.debug.LogWarning(System.Object)">
+            <summary>
+            	<para>A variant of Debug.Log that logs a warning message to the console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="message">Message</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.DevelopmentBuild.debug.LogWarning(System.Object,UnityEngine.Object)">
+            <summary>
+            	<para>A variant of Debug.Log that logs a warning message to the console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="message">Message</param>
+            <param name="context">Context</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.DevelopmentBuild.debug.LogWarningFormat(System.String,System.Object[])">
+            <summary>
+            	<para>Logs a formatted warning message to the Unity Console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="format">Format</param>
+            <param name="args">Arguments</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.DevelopmentBuild.debug.LogWarningFormat(UnityEngine.Object,System.String,System.Object[])">
+            <summary>
+            	<para>Logs a formatted warning message to the Unity Console.</para>
+            	<para>System.Diagnostics.Conditional:
+            		<b>UNITY_EDITOR || DEVELOPMENT_BUILD</b></para>
+            </summary>
+            <param name="context">Context</param>
+            <param name="format">Format</param>
+            <param name="args">Arguments</param>
+        </member>
+        <member name="T:Bayhaksam.Unity.Logging.UnityDebugTraceListener">
+            <summary>
+            It is a
+            	<see href="https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.tracelistener">
+            		System.Diagnostics.TraceListener</see>
+            	for <see href="http://unity3d.com/">
+            		Unity3D</see>.
+            It will put your log to
+            	<see href="http://unity3d.com/">
+            		Unity3D</see>
+            	console when you call
+            	<see cref="M:System.Diagnostics.Trace.Write(System.String)"/>
+            	/
+            	<see cref="M:System.Diagnostics.Trace.WriteLine(System.String)"/>
+            	or
+            	<see cref="M:System.Diagnostics.Debug.Write(System.String)"/>
+            	/
+            	<see cref="M:System.Diagnostics.Debug.WriteLine(System.String)"/>.
+            </summary>
+            <example>The following is an example of initializing a
+            	<c>UnityDebugTraceListener</c>.
+            	<code>
+            		#if TRACE || DEBUG
+            				System.Diagnostics.Trace.Listeners.Add(Bayhaksam.Unity.Log.UnityDebugTraceListener.Instance);
+            		#endif
+            	</code>
+            </example>
+        </member>
+        <member name="F:Bayhaksam.Unity.Logging.UnityDebugTraceListener.lazyInstance">
+            <summary>
+            Stores value for lazy initialization.
+            </summary>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.UnityDebugTraceListener.#ctor">
+            <summary>
+            Prevents a default instance of the <see cref="T:Bayhaksam.Unity.Logging.UnityDebugTraceListener"/> class from being created.
+            </summary>
+        </member>
+        <member name="P:Bayhaksam.Unity.Logging.UnityDebugTraceListener.Instance">
+            <summary>
+            Gets singleton instance.
+            </summary>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.UnityDebugTraceListener.Write(System.String)">
+            <summary>
+            Don' t call directly. Called after
+            	<see cref="M:System.Diagnostics.Trace.Write(System.String)"/>
+            	or
+            	<see cref="M:System.Diagnostics.Debug.Write(System.String)"/>
+            	method.
+            </summary>
+            <param name="message">Message</param>
+        </member>
+        <member name="M:Bayhaksam.Unity.Logging.UnityDebugTraceListener.WriteLine(System.String)">
+            <summary>
+            Don' t call directly. Called after
+            	<see cref="M:System.Diagnostics.Trace.WriteLine(System.String)"/>
+            	or
+            	<see cref="M:System.Diagnostics.Debug.WriteLine(System.String)"/>
+            	method.
+            </summary>
+            <param name="message">Message</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,641 @@
+-target:library
+-out:"Library/Bee/artifacts/1900b0aP.dag/Simofun.Unity.dll"
+-refout:"Library/Bee/artifacts/1900b0aP.dag/Simofun.Unity.ref.dll"
+-define:UNITY_2021_3_25
+-define:UNITY_2021_3
+-define:UNITY_2021
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_3_OR_NEWER
+-define:UNITY_2018_4_OR_NEWER
+-define:UNITY_2019_1_OR_NEWER
+-define:UNITY_2019_2_OR_NEWER
+-define:UNITY_2019_3_OR_NEWER
+-define:UNITY_2019_4_OR_NEWER
+-define:UNITY_2020_1_OR_NEWER
+-define:UNITY_2020_2_OR_NEWER
+-define:UNITY_2020_3_OR_NEWER
+-define:UNITY_2021_1_OR_NEWER
+-define:UNITY_2021_2_OR_NEWER
+-define:UNITY_2021_3_OR_NEWER
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:ENABLE_AR
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_VIRTUALTEXTURING
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:ENABLE_MANAGED_AUDIO_JOBS
+-define:ENABLE_MANAGED_UNITYTLS
+-define:INCLUDE_DYNAMIC_GI
+-define:ENABLE_SCRIPTING_GC_WBARRIERS
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_VIDEO
+-define:ENABLE_ACCELERATOR_CLIENT_DEBUGGING
+-define:PLATFORM_STANDALONE
+-define:TEXTCORE_1_0_OR_NEWER
+-define:PLATFORM_STANDALONE_WIN
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_NVIDIA
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT
+-define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+-define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_IL2CPP
+-define:NET_STANDARD_2_0
+-define:NET_STANDARD
+-define:NET_STANDARD_2_1
+-define:NETSTANDARD
+-define:NETSTANDARD2_1
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_DIRECTOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_TILEMAP
+-define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
+-define:ENABLE_LEGACY_INPUT_MANAGER
+-define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:ODIN_INSPECTOR
+-define:ODIN_INSPECTOR_3
+-define:USE_INPUT_SYSTEM_POSE_CONTROL
+-define:USE_INPUT_SYSTEM_POSE_CONTROL
+-define:USE_INPUT_SYSTEM_POSE_CONTROL
+-define:USE_INPUT_SYSTEM_POSE_CONTROL
+-define:CSHARP_7_OR_LATER
+-define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Serialization.dll"
+-r:"Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Utilities.dll"
+-r:"Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll"
+-r:"Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll"
+-r:"Assets/ThirdParty/Bayhaksam/Bayhaksam.Extensions.dll"
+-r:"Assets/ThirdParty/Bayhaksam/Bayhaksam.Unity.Logging.dll"
+-r:"Assets/ThirdParty/Demigiant/DOTween/DOTween.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Data.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Net.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Numerics.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Runtime.Serialization.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ServiceModel.Web.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Transactions.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Web.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Windows.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Linq.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Serialization.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.AppContext.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Buffers.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Concurrent.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.NonGeneric.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Specialized.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Console.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Data.Common.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Debug.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Process.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tools.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Drawing.Primitives.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Dynamic.Runtime.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Calendars.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Extensions.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Pipes.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Expressions.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Parallel.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Queryable.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Memory.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Http.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NameResolution.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NetworkInformation.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Ping.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Primitives.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Requests.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Security.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Sockets.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Numerics.Vectors.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ObjectModel.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.DispatchProxy.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.ILGeneration.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.Lightweight.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Extensions.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Primitives.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Reader.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.ResourceManager.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Writer.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Extensions.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Handles.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Numerics.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Claims.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Principal.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.SecureString.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.RegularExpressions.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Overlapped.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Extensions.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Thread.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.ThreadPool.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Timer.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ValueTuple.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XDocument.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.AndroidJNIModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.DSPGraphModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.GIModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.HotReloadModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.InputLegacyModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.LocalizationModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.ProfilerModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.StreamingModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.SubstanceModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.SubsystemsModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.TLSModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UIElementsNativeModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UmbraModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UNETModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UnityCurlModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UnityTestProtocolModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.VFXModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.VirtualTexturingModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.XRModule.dll"
+-r:"C:/Users/Zestro Gaming/Downloads/xr-template/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.0/Runtime/AOT/Newtonsoft.Json.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Cinemachine.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/DOTween.Modules.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/UniRx.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/UniTask.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Animancer/SimSimpleAnimancer.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Collections/Generic/Extensions/SimIListExt.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/CysharpUniTask/Unity/Utils/SimUniTaskUtil.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/DOTween/Unity/Extensions/SimTransformExt.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Events/SimBaseEvent.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Extensions/SimArrayExt.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Extensions/SimCharExt.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Extensions/SimDateTimeExt.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Extensions/SimEnumExt.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Extensions/SimObjectExt.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Extensions/SimStringExt.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Extensions/SimTypeExt.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Facebook/Unity/SimFacebookInitializer.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/GameAnalytics/Unity/SimGameAnalytics.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Identification/ISimGuidIdentifiable.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Identification/ISimIdentifiable`1.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Identification/ISimIntIdentifiable.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Identification/ISimLongIdentifiable.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Identification/ISimStringIdentifiable.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/IO/ISimRootPath.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/IO/Utils/SimFileUtil.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/ISimConstructible.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/ISimDestroyable.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/ISimInitializable.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/ISimInitializable`1.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/ISimNamable.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/ISimPurchasable.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/ISimUnlockable.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/ISimVisibility.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/ISimVisible.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/JsonNet/Unity/Converter/SimUnityConverterInitializer.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/JsonNet/Unity/Serialization/SimUnityTypeContractResolver.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/LogViewer/Unity/SimLogViewerInvoker.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/RandomUserApi/Model/SimRandomUser.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/RandomUserApi/Model/SimRandomUserApiResponse.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/RandomUserApi/Model/SimRandomUserPicture.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/RandomUserApi/Unity/SimLocalRandomUserController.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/RandomUserApi/Unity/SimRandomUserApiRestClient.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Security/Cryptography/Utils/SimEncryptUtil.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/SimAppMenuItems.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/SimMenuItems.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/SimRandomPlayerNameGenerator.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/SimRandomUserNameGenerator.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Store/SimStoreEvents.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/TMPro/Unity/Extensions/SimStringExt.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/UniRx/Unity/SimMessageBus.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/UniRx/Unity/Triggers/ObservableDisableTrigger.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/AI/Extensions/SimNavMeshExt.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/AI/ISimAITargetController.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/AI/SimAITargetControllerBase.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/AI/SimAITargetMode.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/AI/SimAITargetPoint.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/AI/SimMoveTargetWithoutNoticeAITargetControllerBase.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/AI/SimRandomAITargetController.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/AI/SimSequentialRandomAITargetController.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Analytics/Events/Listener/SimBasicAnalyticsEventsListenerBase`1.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Analytics/Events/Listener/SimBasicAnalyticsEventsListenerBase`2.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Analytics/ISimAnalytics.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Analytics/Model/SimAdAction.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Analytics/Model/SimAdError.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Analytics/Model/SimAdType.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Analytics/Model/SimAnalyticsProgressionStatus.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Analytics/SimAnalyticsBase`1.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Analytics/SimAnalyticsBase`2.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/attribute/SimMinMaxSliderAttribute.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/attribute/SimReadonlyAttribute.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/AppConfig/ISimConfigLoader.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/AppConfig/ISimConfigurable.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/AppConfig/Model/ISimAppConfig.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/AppConfig/Model/ISimConfig.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/AppConfig/Model/SimAppPrefs.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/AppConfig/SimAppConfigBase.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/AppConfig/SimAppConfigBase`1.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/AppConfig/SimAppConfigLoader.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/Extensions/SimCustomAssetConfigExt.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/IO/SimCustomAssetConfigLoadServiceConfigJsonWriter.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/IO/SimCustomAssetConfigLoadServiceConfigReader.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/IO/SimCustomAssetConfigLoadServiceConfigWriter.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/ISimCustomAssetConfigLoadService.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/ISimCustomAssetConfigLocator.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/ISimCustomAssetConfigSaveService.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/ISimCustomAssetConfigurable.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/Model/ISimCustomAssetConfig.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/Model/ISimCustomAssetConfigLoadServiceConfig.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/Model/SimAudioConfig.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/Model/SimCustomAssetConfigBase.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/Model/SimCustomAssetConfigLoadServiceConfig.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/Model/SimCustomAssetConfigLoadServiceConfigBase.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/Model/SimVibrationConfig.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/Serialization/SimCustomAssetConfigLoadServiceConfigJsonConverter.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/SimCustomAssetConfigLoadService.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/SimCustomAssetConfigLoadServiceBase`1.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/SimCustomAssetConfigLoadServiceBase`2.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/SimCustomAssetConfigLocator.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/SimCustomAssetConfigLocatorBase`1.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/SimCustomAssetConfigLocatorBase`2.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/SimCustomAssetConfigSaveService.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/SimCustomAssetConfigSaveServiceBase`1.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/SimCustomAssetConfigSaveServiceBase`2.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/Utils/SimCustomAssetConfigEditorUtils.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/CustomAsset/Utils/SimCustomAssetConfigUtils.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/Model/SimJsonSerializerType.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/Model/SimSerializableSprite.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Configuration/Prefs/SimUnityPrefs.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Extensions/SimEnumExt.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Data/Model/SimAppDataPath.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/DesignPatterns/ObjectPooling/SimPool.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/DesignPatterns/Singleton/CustomAsset/SimCustomAssetSingletonBase`2.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/DesignPatterns/Singleton/CustomAsset/SimLoadedCustomAssetSingletonBase`1.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/DesignPatterns/Singleton/CustomAsset/SimLoadedCustomAssetSingletonBase`2.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/DesignPatterns/Singleton/CustomAsset/SimResourcesCustomAssetSingletonBase`1.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/DesignPatterns/Singleton/CustomAsset/SimResourcesCustomAssetSingletonBase`2.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/DesignPatterns/Singleton/SimGlobalSingletonBase`1.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/DesignPatterns/Singleton/SimGlobalSingletonBase`2.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/DesignPatterns/Singleton/SimSceneSingletonBase`1.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/DesignPatterns/Singleton/SimSceneSingletonBase`2.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/DesignPatterns/Singleton/SimSingletonBase`2.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/DesignPatterns/StateMachine/FSM/CustomAsset/SimCustomAssetState.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/DesignPatterns/StateMachine/FSM/ISimStateMachine.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/DesignPatterns/StateMachine/FSM/Model/ISimState.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/DesignPatterns/StateMachine/FSM/Model/SimState.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/DesignPatterns/StateMachine/FSM/SimStateMachine.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/DesignVariables/Attributes/DesignVariableAttribute.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Drawing/Model/SimMeshGeneratorMeshData.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Drawing/SimMeshGenerator.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Effects/SimBounceEffect.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Effects/SimContinuousCanvasGroupFadeInOutEffect.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Effects/SimEffectsPlayer.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Events/Scenario/SimScenarioEvent.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Events/Scenario/SimScenarioFailedEvent.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Events/Scenario/SimScenarioSucceededEvent.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Events/SimBaseUnityEvent.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Events/SimGameIsStartedEvent.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Events/SimTimeIsUpEvent.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Extensions/SimAnimatorExt.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Extensions/SimBoxColliderExt.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Extensions/SimColliderExt.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Extensions/SimComponentExt.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Extensions/SimGameObjectExt.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Extensions/SimGUISkinExt.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Extensions/SimLayerMaskExt.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Extensions/SimMeshExt.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Extensions/SimObjectExt.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Extensions/SimRigidbodyExt.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Extensions/SimTexture2DExt.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Extensions/SimTransformExt.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Extensions/SimVector3Ext.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Gizmos/SimBoxColliderBoundsCenterGizmos.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Gizmos/SimGizmosDrawerBase.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Gizmos/SimLastPositionsLineGizmosDrawer.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Gizmos/SimLineDrawerOnPositionsGizmos.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Gizmos/SimSphereGizmosDrawer.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/HardCodeds/SimAssets.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/HardCodeds/SimLayerMasks.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/HardCodeds/SimLayers.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/HardCodeds/SimScenes.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/HardCodeds/SimTags.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Input/SimSwipeData.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Input/SimSwipeDetector.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Input/SimSwipeDirection.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/ISimActivate.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/ISimMaterialRenderQueueSetter.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/ISimVisibilityCondition.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/LifeCycle/ISimResettable.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Model/area/SimAreaBase.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Monetization/Ads/Configuration/Model/ISimAdsConfig.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Monetization/Ads/Configuration/Model/SimAdsConfig.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Monetization/Ads/Configuration/Model/SimAdUnitIds.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Monetization/Ads/Events/SimAdsEvents.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Monetization/Ads/exception/SimAdLoadException.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Monetization/Ads/ISimAdsManager.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Monetization/Ads/ISimAdsProvider.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Monetization/Ads/Model/SimAdPlatform.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Monetization/Ads/Model/SimAdShowResult.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Monetization/Ads/Model/SimBannerAdPosition.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Monetization/Ads/Model/SimBannerAdShowResult.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Monetization/Ads/Model/SimInterstitialAdShowResult.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Monetization/Ads/Model/SimRewardedAdShowResult.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Monetization/Ads/SimAdsManager.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Monetization/Ads/SimAdsManagerBase`1.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Monetization/Ads/SimAdsManagerBase`2.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Monetization/Ads/SimAdsProviderBase`1.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Monetization/Ads/SimAdsProviderBase`2.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Monetization/Ads/SimFakeAdsProvider.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Popup/ISimPopup.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Popup/ISimPopupManager.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Popup/ISimPopupSource.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Popup/ISimPopupSourceFollower.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Popup/SimPopupBase.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Popup/SimPopupManager.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Popup/SimPopupSource.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Popup/SimPopupSourceFollower.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Feedback/Mail/SimFeedbackMailButtonView.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/ISimBaseView.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Menu/Game/ISimGameplayMenuView.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Menu/Game/Settings/SimGameSettingsMenuButtonView.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Menu/Game/Settings/SimGameSettingsMenuItemButtonView.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Menu/Game/Settings/SimGameSettingsMenuView.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Menu/Game/Settings/SimGameSettingsMenuViewBase`1.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Menu/Game/Settings/SimGameSettingsMenuViewBase`2.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Menu/Game/SimGameplayMenuView.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Menu/Game/SimGameplayMenuViewBase`1.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Menu/Game/SimGameplayMenuViewBase`2.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Menu/ISimMenuManager.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Menu/ISimMenuView.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Menu/ISimPlaceholderMenuView.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Menu/SimMenuEvents.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Menu/SimMenuManager.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Menu/SimMenuManagerBase`1.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Menu/SimMenuManagerBase`2.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Menu/SimMenuPanelViewBase`1.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Menu/SimMenuPanelViewBase`2.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Menu/SimMenuView`1.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Menu/SimMenuView`2.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Menu/SimOpenMenuParent.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Menu/SimPlaceholderMenuView.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Menu/SimPlaceholderMenuView`1.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Menu/SimPlaceholderMenuView`2.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/SimBaseView.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/SimBootView.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/SimButtonViewBase.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/SimImagePercentView.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/SimTabsView.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/SimTabView.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Store/SimRateUsButtonView.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Store/SimStoreMoreGamesButtonView.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Store/SimStoreRateUsPanelView.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Presentation/View/Web/Api/Store/SimUpdateAppVersionView.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Quest/Condition/Model/ISimCondition.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Quest/Condition/Model/SimCondition.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Quest/Events/SimQuestEvents.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Quest/Goal/Events/SimQuestGoalEvents.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Quest/Goal/ISimGoal.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Quest/Goal/SimGoal.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Quest/ISimQuestManager.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Quest/Model/ISimQuest.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Quest/Model/SimQuest.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Quest/Model/SimQuestInfo.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Quest/Model/SimQuestReward.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Quest/SimQuestManager.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Rendering/ISimCamera.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Rendering/ISimShake.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Rendering/SimCameraBase.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Rendering/SimCameraManager.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Rendering/SimCinemachineCamera.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Rendering/SimCinemachineVibrationCamera.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Rendering/SimDebugCameraSwitcher.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/SceneManagement/ISimSceneLoader.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/SceneManagement/ISimSceneLoaderByIndex.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/SceneManagement/ISimSceneLoaderByName.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/SceneManagement/SimNonObservedAsyncSceneLoaderByIndex.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/SceneManagement/SimNonObservedAsyncSceneLoaderByName.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/SceneManagement/SimSceneInvokerAfterSeconds.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/SceneManagement/SimSceneLoaderBase.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/SceneManagement/SimSceneLoaderByIndex.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/SceneManagement/SimSceneLoaderByName.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/SimContinuousBlobLightProjector.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/SimContinuousRotater.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/SimDontDestroyOnLoad.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/SimMaterialRenderQueueSetter.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/SimPointPathDrawer.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/SimSetActiveByCanvasGroupAlpha.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/SimSwipeDetector.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/SimTargetPositionFollower.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Systems/FireSystem/Extinguish/Events/SimFireExtinguishHitEvent.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Systems/FireSystem/Extinguish/SimRaycastFireExtinguish.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Systems/FireSystem/Gizmos/SimGridInfoGizmosDrawer.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Systems/FireSystem/Initialization/ISimFireStartPositionSetter.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Systems/FireSystem/Initialization/SimFireStartPositionSetter.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Systems/FireSystem/Initialization/SimNearestColliderFireStartPositionSetter.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Systems/FireSystem/Initialization/SimRandomMeshFilterFireStartPositionSetter.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Systems/FireSystem/Model/SimGridInfo.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Systems/FireSystem/Serialization/ISimGridInfoFileInfo.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Systems/FireSystem/Serialization/ISimGridInfoFileNameGenerator.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Systems/FireSystem/Serialization/Json/Extensions/SimStringExt.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Systems/FireSystem/Serialization/Json/read/SimGridInfoJsonReader.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Systems/FireSystem/Serialization/Json/write/SimGridInfoJsonWriter.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Systems/FireSystem/Serialization/read/ISimGridInfoReader.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Systems/FireSystem/Serialization/SimByDateGridInfoFileNameGenerator.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Systems/FireSystem/Serialization/SimDefaultGridInfoJsonFileInfo.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Systems/FireSystem/Serialization/SimGridInfoFileNameGenerator.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Systems/FireSystem/Serialization/SimPersistentGridInfoJsonFileInfo.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Systems/FireSystem/Serialization/SimResourcesGridInfoJsonFileInfo.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Systems/FireSystem/Serialization/write/ISimGridInfoWriter.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Systems/FireSystem/SimFireCreator.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Systems/FireSystem/SimFireSpreader.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Systems/FireSystem/SimMeshGridExtractor.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Systems/FireSystem/Test/SimFireCreatorTester.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Systems/FireSystem/Test/SimFireDamageTester.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Tutorial/handler/SimTutorialItemHandlerBase.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Tutorial/SimTutorialController.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Tutorial/SimTutorialItem.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Tutorial/SimTutorialItemDefinition.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Tutorial/SimTutorialItemIdentifier.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Utils/SimInputUtil.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Utils/SimObjectUtil.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Utils/SimVector3Util.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Web/Api/Store/Events/SimStoreAppVersionEvents.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Web/Api/Store/ISimStoreAppVersionApi.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Web/Api/Store/Model/SimStoreAppVersionResponse.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Web/Api/Store/Platform/Android/SimAndroidStoreAppVersionApi.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Web/Api/Store/Platform/Ios/Model/SimIosStoreAppVersionResponse.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Web/Api/Store/Platform/Ios/SimIosStoreAppVersionApi.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Web/Api/Store/Platform/SimStoreAppVersionApiBase.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Web/Api/Store/SimFakeStoreAppVersionApi.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Unity/Web/Api/Store/SimStoreAppVersionApi.cs"
+"Library/PackageCache/com.simofun.unity@31fff4312f/Runtime/Utils/SimTypeUtil.cs"
+-langversion:9.0
+
+/deterministic
+/optimize+
+/debug:portable
+/nologo
+/RuntimeMetadataVersion:v4.0.30319
+
+/nowarn:0169
+/nowarn:0649
+/nowarn:1701
+/nowarn:1702
+/utf8output
+/preferreduilang:en-US
+-warn:0
+
+/additionalfile:"Library/Bee/artifacts/1900b0aP.dag/Simofun.Unity.AdditionalFile.txt"
